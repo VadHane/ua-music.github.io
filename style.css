@@ -1,0 +1,151 @@
+.body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+img {
+    height: 8vh;
+}
+
+.wrapper {
+    padding: 0;
+    margin: 0;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {
+    height: 10vh;
+    width: 80vw;
+    text-align: center;
+}
+
+.header h1 {
+    display: inline
+}
+
+.main {
+    height: 30vh;
+    width: 80vw;
+}
+
+.main p {
+    text-align: center;
+    font-size: large;
+}
+
+#x-large-text {
+    font-size: x-large;
+}
+
+#video {
+    width: min(560px, 100vw - 50px) !important;
+    height: calc(min(560px, 100vw - 50px) / (560 / 315)) !important;
+}
+
+.todo-list {
+    text-align: center;
+}
+
+.todo-list ol li {
+    padding-top: 15px;
+}
+
+.todo-list ol li a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+.social-pages {
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.instagram {
+    width: 60vw;
+    height: 10vh;
+
+    background-color: rgb(255, 0, 125);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.telegram {
+    width: 60vw;
+    height: 10vh;
+    margin-top: 20px;
+
+    background-color: dodgerblue;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tiktok {
+    width: 60vw;
+    height: 10vh;
+    margin-top: 20px;
+
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.yt {
+    width: 60vw;
+    height: 10vh;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+    background-color: red;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-hr {
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.custom-hr .hr-blue {
+    width: 100vw;
+    height: 0.5vh;
+
+    background-color: blue;
+}
+
+.custom-hr .hr-yellow {
+    width: 100vw;
+    height: 0.5vh;
+
+    margin-top: 5px;
+
+    background-color: yellow;
+}
